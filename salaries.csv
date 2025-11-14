@@ -1,0 +1,11 @@
+years_experience,test_score,interview_score,job_title,education_level,location,company_size,industry,salary
+1,78,72,Junior Developer,Bachelor,Delhi,Small,IT,360000
+3,82,80,Junior Developer,Bachelor,Mumbai,Medium,IT,480000
+5,88,84,Software Engineer,Bachelor,Bangalore,Large,IT,820000
+7,91,86,Senior Engineer,Master,Bangalore,Large,IT,1250000
+2,75,70,Data Analyst,Bachelor,Pune,Small,Analytics,420000
+6,89,90,Data Scientist,Master,Bangalore,Large,Analytics,1400000
+4,84,82,Software Engineer,Bachelor,Hyderabad,Medium,IT,700000
+9,93,95,Senior Engineer,Master,Delhi,Large,IT,1650000
+8,92,90,Data Scientist,Master,Hyderabad,Large,Analytics,1500000
+3,80,78,QA Engineer,Bachelor,Noida,Medium,IT,520000
