@@ -17,7 +17,7 @@ os.makedirs("model", exist_ok=True)
 DATA_PATH = "salaries.csv"
 
 if not os.path.exists(DATA_PATH):
-    raise FileNotFoundError("❌ Dataset not found! Please create salaries.csv first.")
+    raise FileNotFoundError(" Dataset not found! Please create salaries.csv first.")
 
 df = pd.read_csv(DATA_PATH)
 
@@ -72,5 +72,6 @@ plt.ylabel("Test Score (%)", fontsize=12)
 plt.grid(True, linestyle="--", alpha=0.4)
 plt.tight_layout()
 plt.show()
+
 
 
