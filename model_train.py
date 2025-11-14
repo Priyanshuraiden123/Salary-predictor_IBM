@@ -14,14 +14,14 @@ os.makedirs("model", exist_ok=True)
 
 # --- Load dataset ---
 # Createing a file  "salaries.csv"  for datasheet
-DATA_PATH = "data/salaries.csv"
+DATA_PATH = "salaries.csv"
 
 if not os.path.exists(DATA_PATH):
-    raise FileNotFoundError("❌ Dataset not found! Please create data/salaries.csv first.")
+    raise FileNotFoundError("❌ Dataset not found! Please create salaries.csv first.")
 
 df = pd.read_csv(DATA_PATH)
 
-print("✅ Loaded dataset with", df.shape[0], "rows and", df.shape[1], "columns")
+print(" Loaded dataset with", df.shape[0], "rows and", df.shape[1], "columns")
 
 
 numeric_features = ["years_experience", "test_score", "interview_score"]
@@ -53,7 +53,7 @@ y_pred = model.predict(X_test)
 mae = mean_absolute_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
-print(f"📊 Model Performance:")
+print(f" Model Performance:")
 print(f"   MAE = {mae:.2f}")
 print(f"   R²  = {r2:.3f}")
 
@@ -72,4 +72,5 @@ plt.ylabel("Test Score (%)", fontsize=12)
 plt.grid(True, linestyle="--", alpha=0.4)
 plt.tight_layout()
 plt.show()
+
 
